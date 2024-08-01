@@ -1,0 +1,1 @@
+savedcmd_/home/aoddudwo/driver_study/day2/day2_module.ko := ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/aoddudwo/driver_study/day2/day2_module.ko /home/aoddudwo/driver_study/day2/day2_module.o /home/aoddudwo/driver_study/day2/day2_module.mod.o;  true
