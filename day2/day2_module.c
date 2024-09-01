@@ -38,7 +38,7 @@ static int __init driver_init(void) {
 
 	printk("Driver init!\n");
 	
-	retval = register_chrdev(MAJOR_NUM, "IH_driver2", &fops)
+	retval = register_chrdev(MAJOR_NUM, "IH_driver2", &fops);
 	if(retval == 0) {
 		printk("Device Major Number :%d, Minor : %d\n", MAJOR_NUM,0);
 	}
