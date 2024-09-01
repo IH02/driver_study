@@ -1,4 +1,4 @@
-savedcmd_/home/aoddudwo/driver_study/day1/day1_module.mod.o := gcc -Wp,-MMD,/home/aoddudwo/driver_study/day1/.day1_module.mod.o.d -nostdinc -I/home/aoddudwo/rpi_kernel_build/linux/arch/arm/include -I./arch/arm/include/generated -I/home/aoddudwo/rpi_kernel_build/linux/include -I./include -I/home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I/home/aoddudwo/rpi_kernel_build/linux/include/uapi -I./include/generated/uapi -include /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler-version.h -include /home/aoddudwo/rpi_kernel_build/linux/include/linux/kconfig.h -include /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -D__LINUX_ARM_ARCH__=7 -fmacro-prefix-map=/home/aoddudwo/rpi_kernel_build/linux/= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fno-dwarf2-cfi-asm -mno-fdpic -fno-ipa-sra -mtp=cp15 -mabi=aapcs-linux -mfpu=vfp -funwind-tables -marm -Wa,-mno-warn-deprecated -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -ftrivial-auto-var-init=zero -fno-stack-clash-protection -pg -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wframe-larger-than=1024 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-restrict -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-overflow -Wno-stringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -mstack-protector-guard=tls -mstack-protector-guard-offset=1576 -DMODULE -DKBUILD_BASENAME='"day1_module.mod"' -DKBUILD_MODNAME='"day1_module"' -D__KBUILD_MODNAME=kmod_day1_module -c -o /home/aoddudwo/driver_study/day1/day1_module.mod.o /home/aoddudwo/driver_study/day1/day1_module.mod.c
+savedcmd_/home/aoddudwo/driver_study/day1/day1_module.mod.o := gcc -Wp,-MMD,/home/aoddudwo/driver_study/day1/.day1_module.mod.o.d -nostdinc -I/home/aoddudwo/build_kernel/linux/linux/arch/arm64/include -I./arch/arm64/include/generated -I/home/aoddudwo/build_kernel/linux/linux/include -I./include -I/home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I/home/aoddudwo/build_kernel/linux/linux/include/uapi -I./include/generated/uapi -include /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler-version.h -include /home/aoddudwo/build_kernel/linux/linux/include/linux/kconfig.h -include /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=/home/aoddudwo/build_kernel/linux/linux/= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -falign-functions=8 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wframe-larger-than=2048 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-restrict -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-overflow -Wno-stringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1408 -DMODULE -DKBUILD_BASENAME='"day1_module.mod"' -DKBUILD_MODNAME='"day1_module"' -D__KBUILD_MODNAME=kmod_day1_module -c -o /home/aoddudwo/driver_study/day1/day1_module.mod.o /home/aoddudwo/driver_study/day1/day1_module.mod.c
 
 source_/home/aoddudwo/driver_study/day1/day1_module.mod.o := /home/aoddudwo/driver_study/day1/day1_module.mod.c
 
@@ -6,13 +6,13 @@ deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o := \
     $(wildcard include/config/UNWINDER_ORC) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/RETPOLINE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler-version.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kconfig.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kconfig.h \
     $(wildcard include/config/CPU_BIG_ENDIAN) \
     $(wildcard include/config/BOOGER) \
     $(wildcard include/config/FOO) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler_types.h \
     $(wildcard include/config/DEBUG_INFO_BTF) \
     $(wildcard include/config/PAHOLE_HAS_BTF_TAG) \
     $(wildcard include/config/FUNCTION_ALIGNMENT) \
@@ -21,13 +21,17 @@ deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o := \
     $(wildcard include/config/ARM64) \
     $(wildcard include/config/HAVE_ARCH_COMPILER_H) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler_attributes.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler-gcc.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler_attributes.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler-gcc.h \
     $(wildcard include/config/GCC_ASM_GOTO_OUTPUT_WORKAROUND) \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
     $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/KCOV) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/module.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/compiler.h \
+    $(wildcard include/config/ARM64_PTR_AUTH_KERNEL) \
+    $(wildcard include/config/ARM64_PTR_AUTH) \
+    $(wildcard include/config/BUILTIN_RETURN_ADDRESS_STRIPS_PAC) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/module.h \
     $(wildcard include/config/MODULES) \
     $(wildcard include/config/SYSFS) \
     $(wildcard include/config/MODULES_TREE_LOOKUP) \
@@ -52,376 +56,492 @@ deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o := \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/list.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/list.h \
     $(wildcard include/config/LIST_HARDENED) \
     $(wildcard include/config/DEBUG_LIST) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/container_of.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/build_bug.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/compiler.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/container_of.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/build_bug.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
     $(wildcard include/config/OBJTOOL) \
-  arch/arm/include/generated/asm/rwonce.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/rwonce.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kasan-checks.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/rwonce.h \
+    $(wildcard include/config/LTO) \
+    $(wildcard include/config/AS_HAS_LDAPR) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/rwonce.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kasan-checks.h \
     $(wildcard include/config/KASAN_GENERIC) \
     $(wildcard include/config/KASAN_SW_TAGS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/types.h \
     $(wildcard include/config/HAVE_UID16) \
     $(wildcard include/config/UID16) \
     $(wildcard include/config/ARCH_DMA_ADDR_T_64BIT) \
     $(wildcard include/config/PHYS_ADDR_T_64BIT) \
     $(wildcard include/config/64BIT) \
     $(wildcard include/config/ARCH_32BIT_USTAT_F_TINODE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/int-ll64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/int-ll64.h \
-  arch/arm/include/generated/uapi/asm/bitsperlong.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitsperlong.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/bitsperlong.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/posix_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/stddef.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/stddef.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/posix_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/posix_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kcsan-checks.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/types.h \
+  arch/arm64/include/generated/uapi/asm/types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/int-ll64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/int-ll64.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/bitsperlong.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitsperlong.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/bitsperlong.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/posix_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/stddef.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/stddef.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/posix_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/posix_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kcsan-checks.h \
     $(wildcard include/config/KCSAN) \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/poison.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/poison.h \
     $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/const.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/const.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/const.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/barrier.h \
-    $(wildcard include/config/CPU_32v6K) \
-    $(wildcard include/config/THUMB2_KERNEL) \
-    $(wildcard include/config/CPU_XSC3) \
-    $(wildcard include/config/CPU_FA526) \
-    $(wildcard include/config/ARM_HEAVY_MB) \
-    $(wildcard include/config/ARM_DMA_MEM_BUFFERABLE) \
-    $(wildcard include/config/CPU_SPECTRE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/barrier.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/stat.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/stat.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/stat.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/time.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/const.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/const.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/const.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/barrier.h \
+    $(wildcard include/config/ARM64_PSEUDO_NMI) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/alternative-macros.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/bits.h \
+  arch/arm64/include/generated/asm/cpucaps.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/insn-def.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/brk-imm.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/stringify.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/barrier.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/stat.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/stat.h \
+    $(wildcard include/config/COMPAT) \
+  arch/arm64/include/generated/uapi/asm/stat.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/stat.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/time.h \
     $(wildcard include/config/POSIX_TIMERS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/cache.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/kernel.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/sysinfo.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/cache.h \
-    $(wildcard include/config/ARM_L1_CACHE_SHIFT) \
-    $(wildcard include/config/AEABI) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/math64.h \
-    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/math.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/div64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/compiler.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/div64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/log2.h \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/bitops.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/bits.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/bits.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/typecheck.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/generic-non-atomic.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/bitops.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/irqflags.h \
-    $(wildcard include/config/PROVE_LOCKING) \
-    $(wildcard include/config/TRACE_IRQFLAGS) \
-    $(wildcard include/config/PREEMPT_RT) \
-    $(wildcard include/config/IRQSOFF_TRACER) \
-    $(wildcard include/config/PREEMPT_TRACER) \
-    $(wildcard include/config/DEBUG_IRQFLAGS) \
-    $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/cleanup.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/irqflags.h \
-    $(wildcard include/config/CPU_V7M) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/ptrace.h \
-    $(wildcard include/config/ARM_THUMB) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/ptrace.h \
-    $(wildcard include/config/CPU_ENDIAN_BE8) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/hwcap.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/hwcap.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/irqflags.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/percpu.h \
-    $(wildcard include/config/CPU_V6) \
-    $(wildcard include/config/ARM_HAS_GROUP_RELOCS) \
-    $(wildcard include/config/ARM_MODULE_PLTS) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/insn.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/percpu.h \
-    $(wildcard include/config/DEBUG_PREEMPT) \
-    $(wildcard include/config/HAVE_SETUP_PER_CPU_AREA) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/threads.h \
-    $(wildcard include/config/NR_CPUS) \
-    $(wildcard include/config/BASE_SMALL) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/percpu-defs.h \
-    $(wildcard include/config/DEBUG_FORCE_WEAK_PER_CPU) \
-    $(wildcard include/config/AMD_MEM_ENCRYPT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/non-atomic.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/non-instrumented-non-atomic.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/builtin-__fls.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/builtin-__ffs.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/builtin-fls.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/builtin-ffs.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/ffz.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/fls64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/sched.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/hweight.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/arch_hweight.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/const_hweight.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/lock.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/atomic.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/atomic.h \
-    $(wildcard include/config/GENERIC_ATOMIC64) \
-    $(wildcard include/config/ARM_LPAE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/prefetch.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/processor.h \
-    $(wildcard include/config/HAVE_HW_BREAKPOINT) \
-    $(wildcard include/config/BINFMT_ELF_FDPIC) \
-    $(wildcard include/config/MMU) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/hw_breakpoint.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/unified.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/vdso/processor.h \
-    $(wildcard include/config/ARM_ERRATA_754327) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/cmpxchg.h \
-    $(wildcard include/config/CPU_SA1100) \
-    $(wildcard include/config/CPU_SA110) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/cmpxchg-local.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/atomic/atomic-arch-fallback.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/atomic/atomic-long.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/atomic/atomic-instrumented.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/instrumented.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kmsan-checks.h \
-    $(wildcard include/config/KMSAN) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/instrumented-lock.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/le.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/byteorder.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/byteorder/little_endian.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/byteorder/little_endian.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/swab.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/swab.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/swab.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/swab.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/byteorder/generic.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bitops/ext2-atomic-setbit.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/math64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/time64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/time64.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/time.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/time_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/time32.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/timex.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/timex.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/param.h \
-  arch/arm/include/generated/uapi/asm/param.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/param.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/timex.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/time32.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/time.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/uidgid.h \
-    $(wildcard include/config/MULTIUSER) \
-    $(wildcard include/config/USER_NS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/highuid.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/buildid.h \
-    $(wildcard include/config/CRASH_CORE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/mm_types.h \
-    $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
-    $(wildcard include/config/MEMCG) \
-    $(wildcard include/config/USERFAULTFD) \
-    $(wildcard include/config/PER_VMA_LOCK) \
-    $(wildcard include/config/ANON_VMA_NAME) \
-    $(wildcard include/config/SWAP) \
-    $(wildcard include/config/NUMA) \
-    $(wildcard include/config/NUMA_BALANCING) \
-    $(wildcard include/config/SCHED_MM_CID) \
-    $(wildcard include/config/HAVE_ARCH_COMPAT_MMAP_BASES) \
-    $(wildcard include/config/MEMBARRIER) \
-    $(wildcard include/config/AIO) \
-    $(wildcard include/config/MMU_NOTIFIER) \
-    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
-    $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
-    $(wildcard include/config/HUGETLB_PAGE) \
-    $(wildcard include/config/IOMMU_SVA) \
-    $(wildcard include/config/KSM) \
-    $(wildcard include/config/LRU_GEN) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/mm_types_task.h \
-    $(wildcard include/config/SPLIT_PTLOCK_CPUS) \
-    $(wildcard include/config/ARCH_ENABLE_SPLIT_PMD_PTLOCK) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/cpumask.h \
-    $(wildcard include/config/FORCE_NR_CPUS) \
-    $(wildcard include/config/HOTPLUG_CPU) \
-    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
-    $(wildcard include/config/CPUMASK_OFFSTACK) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kernel.h \
-    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
-    $(wildcard include/config/PREEMPT_) \
-    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/stdarg.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/align.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/limits.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/limits.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/limits.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/stringify.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/export.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/kernel.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/sysinfo.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/cache.h \
+    $(wildcard include/config/KASAN_HW_TAGS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bitops.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bits.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/typecheck.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/generic-non-atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/bitops.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/builtin-__ffs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/builtin-ffs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/builtin-__fls.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/builtin-fls.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/ffz.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/fls64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/sched.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/hweight.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/arch_hweight.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/const_hweight.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/cmpxchg.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/atomic_ll_sc.h \
+    $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/export.h \
     $(wildcard include/config/MODVERSIONS) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/linkage.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/hex.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kstrtox.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/minmax.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/panic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/linkage.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/alternative.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/atomic_lse.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/atomic/atomic-arch-fallback.h \
+    $(wildcard include/config/GENERIC_ATOMIC64) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/atomic/atomic-long.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/atomic/atomic-instrumented.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/instrumented.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kmsan-checks.h \
+    $(wildcard include/config/KMSAN) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/instrumented-atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/lock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/instrumented-lock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/non-atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/non-instrumented-non-atomic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/le.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/byteorder.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/byteorder/little_endian.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/byteorder/little_endian.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/swab.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/swab.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/byteorder/generic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bitops/ext2-atomic-setbit.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kasan-enabled.h \
+    $(wildcard include/config/KASAN) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/static_key.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/jump_label.h \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/jump_label.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/insn.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/cputype.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/sysreg.h \
+    $(wildcard include/config/BROKEN_GAS_INST) \
+    $(wildcard include/config/ARM64_PA_BITS_52) \
+    $(wildcard include/config/ARM64_4K_PAGES) \
+    $(wildcard include/config/ARM64_16K_PAGES) \
+    $(wildcard include/config/ARM64_64K_PAGES) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kasan-tags.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/gpr-num.h \
+  arch/arm64/include/generated/asm/sysreg-defs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bitfield.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/mte-def.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/math64.h \
+    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/math.h \
+  arch/arm64/include/generated/asm/div64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/div64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/math64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/time64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/time64.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/time.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/time_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/time32.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/timex.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/timex.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/param.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/param.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/param.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/timex.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/arch_timer.h \
+    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/hwcap.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/hwcap.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/cpufeature.h \
+    $(wildcard include/config/ARM64_PAN) \
+    $(wildcard include/config/ARM64_SW_TTBR0_PAN) \
+    $(wildcard include/config/ARM64_SVE) \
+    $(wildcard include/config/ARM64_SME) \
+    $(wildcard include/config/ARM64_CNP) \
+    $(wildcard include/config/ARM64_MTE) \
+    $(wildcard include/config/ARM64_DEBUG_PRIORITY_MASKING) \
+    $(wildcard include/config/ARM64_BTI) \
+    $(wildcard include/config/ARM64_TLB_RANGE) \
+    $(wildcard include/config/ARM64_PA_BITS) \
+    $(wildcard include/config/ARM64_HW_AFDBM) \
+    $(wildcard include/config/ARM64_AMU_EXTN) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bug.h \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/bug.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/once_lite.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/panic.h \
     $(wildcard include/config/PANIC_TIMEOUT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/printk.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/printk.h \
     $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
     $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
     $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
     $(wildcard include/config/EARLY_PRINTK) \
     $(wildcard include/config/PRINTK) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kern_levels.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/ratelimit_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/spinlock_types_raw.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/stdarg.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kern_levels.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/ratelimit_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/spinlock_types_raw.h \
     $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/spinlock_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/lockdep_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/spinlock_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/qrwlock_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/once_lite.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sprintf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/static_call_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kernel.h \
+    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
+    $(wildcard include/config/PREEMPT_) \
+    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/PROVE_LOCKING) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/align.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/limits.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/limits.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/limits.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/hex.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kstrtox.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/log2.h \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/minmax.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sprintf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/instruction_pointer.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/bitmap.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/find.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/string.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/instruction_pointer.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/smp.h \
+    $(wildcard include/config/UP_LATE_INIT) \
+    $(wildcard include/config/DEBUG_PREEMPT) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/errno.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/errno.h \
+  arch/arm64/include/generated/uapi/asm/errno.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/errno.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/errno-base.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/cpumask.h \
+    $(wildcard include/config/FORCE_NR_CPUS) \
+    $(wildcard include/config/HOTPLUG_CPU) \
+    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
+    $(wildcard include/config/CPUMASK_OFFSTACK) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/threads.h \
+    $(wildcard include/config/BASE_SMALL) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bitmap.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/find.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/string.h \
     $(wildcard include/config/BINARY_PRINTF) \
     $(wildcard include/config/FORTIFY_SOURCE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/err.h \
-  arch/arm/include/generated/uapi/asm/errno.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/errno.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/errno-base.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/errno.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/errno.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/overflow.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/string.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/string.h \
-    $(wildcard include/config/KASAN) \
-    $(wildcard include/config/BCM2835_FAST_MEMCPY) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/bug.h \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/opcodes.h \
-    $(wildcard include/config/CPU_ENDIAN_BE32) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/gfp_types.h \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/numa.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/err.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/overflow.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/string.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/string.h \
+    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/gfp_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
+    $(wildcard include/config/NUMA) \
     $(wildcard include/config/HAVE_ARCH_NODE_DEV_GROUP) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/page.h \
-    $(wildcard include/config/CPU_COPY_V4WT) \
-    $(wildcard include/config/CPU_COPY_V4WB) \
-    $(wildcard include/config/CPU_COPY_FEROCEON) \
-    $(wildcard include/config/CPU_COPY_FA) \
-    $(wildcard include/config/CPU_XSCALE) \
-    $(wildcard include/config/CPU_COPY_V6) \
-    $(wildcard include/config/KUSER_HELPERS) \
-    $(wildcard include/config/VMAP_STACK) \
-    $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/glue.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/pgtable-3level-types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/memory.h \
-    $(wildcard include/config/NEED_MACH_MEMORY_H) \
-    $(wildcard include/config/PAGE_OFFSET) \
-    $(wildcard include/config/HIGHMEM) \
-    $(wildcard include/config/DRAM_BASE) \
-    $(wildcard include/config/DRAM_SIZE) \
-    $(wildcard include/config/XIP_KERNEL) \
-    $(wildcard include/config/HAVE_TCM) \
-    $(wildcard include/config/ARM_PATCH_PHYS_VIRT) \
-    $(wildcard include/config/PHYS_OFFSET) \
-    $(wildcard include/config/DEBUG_VIRTUAL) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sizes.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/kasan_def.h \
-    $(wildcard include/config/KASAN_SHADOW_OFFSET) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/getorder.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/memory_model.h \
-    $(wildcard include/config/FLATMEM) \
-    $(wildcard include/config/SPARSEMEM_VMEMMAP) \
-    $(wildcard include/config/SPARSEMEM) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/pfn.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/auxvec.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/auxvec.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/auxvec.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/auxvec.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kref.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/spinlock.h \
-    $(wildcard include/config/PREEMPTION) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/preempt.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/smp_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/llist.h \
+    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/preempt.h \
+    $(wildcard include/config/PREEMPT_RT) \
     $(wildcard include/config/PREEMPT_COUNT) \
     $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
+    $(wildcard include/config/PREEMPTION) \
     $(wildcard include/config/PREEMPT_NOTIFIERS) \
-  arch/arm/include/generated/asm/preempt.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/preempt.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/thread_info.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/cleanup.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/preempt.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
     $(wildcard include/config/SH) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/restart_block.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/current.h \
-    $(wildcard include/config/CURRENT_POINTER_IN_TPIDRURO) \
-    $(wildcard include/config/CC_IS_CLANG) \
-    $(wildcard include/config/CLANG_VERSION) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/thread_info.h \
-    $(wildcard include/config/ARM_THUMBEE) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/fpstate.h \
-    $(wildcard include/config/VFPv3) \
-    $(wildcard include/config/IWMMXT) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/traps.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/bottom_half.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/lockdep.h \
-    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/smp.h \
-    $(wildcard include/config/UP_LATE_INIT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/smp_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/llist.h \
-    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/smp.h \
-  arch/arm/include/generated/asm/mmiowb.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/mmiowb.h \
-    $(wildcard include/config/MMIOWB) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/spinlock_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rwlock_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/spinlock.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rwlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/restart_block.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/current.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/thread_info.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/memory.h \
+    $(wildcard include/config/ARM64_VA_BITS) \
+    $(wildcard include/config/KASAN_SHADOW_OFFSET) \
+    $(wildcard include/config/VMAP_STACK) \
+    $(wildcard include/config/RANDOMIZE_BASE) \
+    $(wildcard include/config/DEBUG_VIRTUAL) \
+    $(wildcard include/config/EFI) \
+    $(wildcard include/config/ARM_GIC_V3_ITS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sizes.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/page-def.h \
+    $(wildcard include/config/ARM64_PAGE_SHIFT) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mmdebug.h \
+    $(wildcard include/config/DEBUG_VM) \
+    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
+    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/boot.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/memory_model.h \
+    $(wildcard include/config/FLATMEM) \
+    $(wildcard include/config/SPARSEMEM_VMEMMAP) \
+    $(wildcard include/config/SPARSEMEM) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/pfn.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/stack_pointer.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/smp.h \
+    $(wildcard include/config/ARM64_ACPI_PARKING_PROTOCOL) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/percpu.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/percpu.h \
+    $(wildcard include/config/HAVE_SETUP_PER_CPU_AREA) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/percpu-defs.h \
+    $(wildcard include/config/DEBUG_FORCE_WEAK_PER_CPU) \
+    $(wildcard include/config/AMD_MEM_ENCRYPT) \
+  /home/aoddudwo/build_kernel/linux/linux/include/clocksource/arm_arch_timer.h \
+    $(wildcard include/config/ARM_ARCH_TIMER) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/timecounter.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/timex.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/time32.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/time.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/compat.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/compat.h \
+    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
+    $(wildcard include/config/SCHED_INFO) \
+    $(wildcard include/config/SCHEDSTATS) \
+    $(wildcard include/config/SCHED_CORE) \
+    $(wildcard include/config/FAIR_GROUP_SCHED) \
+    $(wildcard include/config/RT_GROUP_SCHED) \
+    $(wildcard include/config/RT_MUTEXES) \
+    $(wildcard include/config/UCLAMP_TASK) \
+    $(wildcard include/config/UCLAMP_BUCKETS_COUNT) \
+    $(wildcard include/config/KMAP_LOCAL) \
+    $(wildcard include/config/CGROUP_SCHED) \
+    $(wildcard include/config/BLK_DEV_IO_TRACE) \
+    $(wildcard include/config/PREEMPT_RCU) \
+    $(wildcard include/config/TASKS_RCU) \
+    $(wildcard include/config/TASKS_TRACE_RCU) \
+    $(wildcard include/config/MEMCG) \
+    $(wildcard include/config/LRU_GEN) \
+    $(wildcard include/config/COMPAT_BRK) \
+    $(wildcard include/config/CGROUPS) \
+    $(wildcard include/config/BLK_CGROUP) \
+    $(wildcard include/config/PSI) \
+    $(wildcard include/config/PAGE_OWNER) \
+    $(wildcard include/config/EVENTFD) \
+    $(wildcard include/config/IOMMU_SVA) \
+    $(wildcard include/config/CPU_SUP_INTEL) \
+    $(wildcard include/config/TASK_DELAY_ACCT) \
+    $(wildcard include/config/STACKPROTECTOR) \
+    $(wildcard include/config/ARCH_HAS_SCALED_CPUTIME) \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING_GEN) \
+    $(wildcard include/config/NO_HZ_FULL) \
+    $(wildcard include/config/POSIX_CPUTIMERS) \
+    $(wildcard include/config/POSIX_CPU_TIMERS_TASK_WORK) \
+    $(wildcard include/config/KEYS) \
+    $(wildcard include/config/SYSVIPC) \
+    $(wildcard include/config/DETECT_HUNG_TASK) \
+    $(wildcard include/config/IO_URING) \
+    $(wildcard include/config/AUDIT) \
+    $(wildcard include/config/AUDITSYSCALL) \
+    $(wildcard include/config/DEBUG_MUTEXES) \
+    $(wildcard include/config/TRACE_IRQFLAGS) \
+    $(wildcard include/config/UBSAN) \
+    $(wildcard include/config/UBSAN_TRAP) \
+    $(wildcard include/config/COMPACTION) \
+    $(wildcard include/config/TASK_XACCT) \
+    $(wildcard include/config/CPUSETS) \
+    $(wildcard include/config/X86_CPU_RESCTRL) \
+    $(wildcard include/config/FUTEX) \
+    $(wildcard include/config/PERF_EVENTS) \
+    $(wildcard include/config/NUMA_BALANCING) \
+    $(wildcard include/config/RSEQ) \
+    $(wildcard include/config/SCHED_MM_CID) \
+    $(wildcard include/config/FAULT_INJECTION) \
+    $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
+    $(wildcard include/config/UPROBES) \
+    $(wildcard include/config/BCACHE) \
+    $(wildcard include/config/SECURITY) \
+    $(wildcard include/config/BPF_SYSCALL) \
+    $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/X86_MCE) \
+    $(wildcard include/config/KRETPROBES) \
+    $(wildcard include/config/RETHOOK) \
+    $(wildcard include/config/ARCH_HAS_PARANOID_L1D_FLUSH) \
+    $(wildcard include/config/RV) \
+    $(wildcard include/config/USER_EVENTS) \
+    $(wildcard include/config/ARCH_TASK_STRUCT_ON_STACK) \
+    $(wildcard include/config/PREEMPT_NONE) \
+    $(wildcard include/config/PREEMPT_VOLUNTARY) \
     $(wildcard include/config/PREEMPT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/spinlock_api_smp.h \
+    $(wildcard include/config/DEBUG_RSEQ) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/sched.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/pid.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rculist.h \
+    $(wildcard include/config/PROVE_RCU_LIST) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rcupdate.h \
+    $(wildcard include/config/TINY_RCU) \
+    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
+    $(wildcard include/config/RCU_LAZY) \
+    $(wildcard include/config/TASKS_RCU_GENERIC) \
+    $(wildcard include/config/RCU_STALL_COMMON) \
+    $(wildcard include/config/KVM_XFER_TO_GUEST_WORK) \
+    $(wildcard include/config/RCU_NOCB_CPU) \
+    $(wildcard include/config/TASKS_RUDE_RCU) \
+    $(wildcard include/config/TREE_RCU) \
+    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
+    $(wildcard include/config/PROVE_RCU) \
+    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/irqflags.h \
+    $(wildcard include/config/IRQSOFF_TRACER) \
+    $(wildcard include/config/PREEMPT_TRACER) \
+    $(wildcard include/config/DEBUG_IRQFLAGS) \
+    $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/irqflags.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/ptrace.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/ptrace.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/sve_context.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bottom_half.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/lockdep.h \
+    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/processor.h \
+    $(wildcard include/config/KUSER_HELPERS) \
+    $(wildcard include/config/ARM64_FORCE_52BIT) \
+    $(wildcard include/config/HAVE_HW_BREAKPOINT) \
+    $(wildcard include/config/ARM64_TAGGED_ADDR_ABI) \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/processor.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/vdso/processor.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/hw_breakpoint.h \
+    $(wildcard include/config/CPU_PM) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/virt.h \
+    $(wildcard include/config/KVM) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/sections.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/sections.h \
+    $(wildcard include/config/HAVE_FUNCTION_DESCRIPTORS) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/kasan.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/mte-kasan.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/pgtable-types.h \
+    $(wildcard include/config/PGTABLE_LEVELS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/pgtable-nopud.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/pgtable-nop4d.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/pgtable-hwdef.h \
+    $(wildcard include/config/ARM64_CONT_PTE_SHIFT) \
+    $(wildcard include/config/ARM64_CONT_PMD_SHIFT) \
+    $(wildcard include/config/ARM64_VA_BITS_52) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/pointer_auth.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/prctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/random.h \
+    $(wildcard include/config/VMGENID) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/random.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/ioctl.h \
+  arch/arm64/include/generated/uapi/asm/ioctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/ioctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/ioctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/irqnr.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/irqnr.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/prandom.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/once.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/percpu.h \
+    $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
+    $(wildcard include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/spectre.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/fpsimd.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/sigcontext.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/context_tracking_irq.h \
+    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rcutree.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/wait.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/spinlock.h \
+  arch/arm64/include/generated/asm/mmiowb.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/mmiowb.h \
+    $(wildcard include/config/MMIOWB) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/spinlock_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rwlock_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/spinlock.h \
+  arch/arm64/include/generated/asm/qspinlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/qspinlock.h \
+  arch/arm64/include/generated/asm/qrwlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/qrwlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rwlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/spinlock_api_smp.h \
     $(wildcard include/config/INLINE_SPIN_LOCK) \
     $(wildcard include/config/INLINE_SPIN_LOCK_BH) \
     $(wildcard include/config/INLINE_SPIN_LOCK_IRQ) \
@@ -433,7 +553,7 @@ deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o := \
     $(wildcard include/config/INLINE_SPIN_UNLOCK_IRQ) \
     $(wildcard include/config/INLINE_SPIN_UNLOCK_IRQRESTORE) \
     $(wildcard include/config/GENERIC_LOCKBREAK) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rwlock_api_smp.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rwlock_api_smp.h \
     $(wildcard include/config/INLINE_READ_LOCK) \
     $(wildcard include/config/INLINE_WRITE_LOCK) \
     $(wildcard include/config/INLINE_READ_LOCK_BH) \
@@ -452,86 +572,163 @@ deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o := \
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQ) \
     $(wildcard include/config/INLINE_READ_UNLOCK_IRQRESTORE) \
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQRESTORE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/refcount.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rbtree.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rbtree_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rcupdate.h \
-    $(wildcard include/config/PREEMPT_RCU) \
-    $(wildcard include/config/TINY_RCU) \
-    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
-    $(wildcard include/config/RCU_LAZY) \
-    $(wildcard include/config/TASKS_RCU_GENERIC) \
-    $(wildcard include/config/RCU_STALL_COMMON) \
-    $(wildcard include/config/NO_HZ_FULL) \
-    $(wildcard include/config/KVM_XFER_TO_GUEST_WORK) \
-    $(wildcard include/config/RCU_NOCB_CPU) \
-    $(wildcard include/config/TASKS_RCU) \
-    $(wildcard include/config/TASKS_TRACE_RCU) \
-    $(wildcard include/config/TASKS_RUDE_RCU) \
-    $(wildcard include/config/TREE_RCU) \
-    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
-    $(wildcard include/config/PROVE_RCU) \
-    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/context_tracking_irq.h \
-    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rcutree.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/maple_tree.h \
-    $(wildcard include/config/MAPLE_RCU_DISABLED) \
-    $(wildcard include/config/DEBUG_MAPLE_TREE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rwsem.h \
-    $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
-    $(wildcard include/config/DEBUG_RWSEMS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/osq_lock.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/completion.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/swait.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/wait.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/wait.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/uprobes.h \
-    $(wildcard include/config/UPROBES) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/page-flags-layout.h \
-  include/generated/bounds.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/workqueue.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/wait.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/refcount.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sem.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/sem.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/ipc.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/uidgid.h \
+    $(wildcard include/config/MULTIUSER) \
+    $(wildcard include/config/USER_NS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/highuid.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rhashtable-types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mutex.h \
+    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/osq_lock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/debug_locks.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
     $(wildcard include/config/WQ_WATCHDOG) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/timer.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/timer.h \
     $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/ktime.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/jiffies.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/jiffies.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/ktime.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/jiffies.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/jiffies.h \
   include/generated/timeconst.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/ktime.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/timekeeping.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/vdso/ktime.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/timekeeping.h \
     $(wildcard include/config/GENERIC_CMOS_UPDATE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/clocksource_ids.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/debugobjects.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/clocksource_ids.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/debugobjects.h \
     $(wildcard include/config/DEBUG_OBJECTS) \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/seqlock.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/mutex.h \
-    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
-    $(wildcard include/config/DEBUG_MUTEXES) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/debug_locks.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/percpu_counter.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/percpu.h \
-    $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
-    $(wildcard include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/mmdebug.h \
-    $(wildcard include/config/DEBUG_VM) \
-    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
-    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/mmu.h \
-    $(wildcard include/config/CPU_HAS_ASID) \
-    $(wildcard include/config/VDSO) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kmod.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/umh.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/gfp.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/ipc.h \
+  arch/arm64/include/generated/uapi/asm/ipcbuf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/ipcbuf.h \
+  arch/arm64/include/generated/uapi/asm/sembuf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/sembuf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/shm.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/page.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/personality.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/personality.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/getorder.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/shm.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/hugetlb_encode.h \
+  arch/arm64/include/generated/uapi/asm/shmbuf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/shmbuf.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/shmparam.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/shmparam.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kmsan_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/plist.h \
+    $(wildcard include/config/DEBUG_PLIST) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/hrtimer.h \
+    $(wildcard include/config/HIGH_RES_TIMERS) \
+    $(wildcard include/config/TIME_LOW_RES) \
+    $(wildcard include/config/TIMERFD) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/hrtimer_defs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rbtree.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rbtree_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/seqlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/timerqueue.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/seccomp.h \
+    $(wildcard include/config/SECCOMP) \
+    $(wildcard include/config/HAVE_ARCH_SECCOMP_FILTER) \
+    $(wildcard include/config/SECCOMP_FILTER) \
+    $(wildcard include/config/CHECKPOINT_RESTORE) \
+    $(wildcard include/config/SECCOMP_CACHE_DEBUG) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/seccomp.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/seccomp.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/unistd.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/unistd.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/unistd.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/seccomp.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/unistd.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/nodemask.h \
+    $(wildcard include/config/HIGHMEM) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/resource.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/resource.h \
+  arch/arm64/include/generated/uapi/asm/resource.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/resource.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/resource.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/latencytop.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/prio.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/signal_types.h \
+    $(wildcard include/config/OLD_SIGACTION) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/signal.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/signal.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/signal.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/signal.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/signal.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/signal-defs.h \
+  arch/arm64/include/generated/uapi/asm/siginfo.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/siginfo.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/syscall_user_dispatch.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mm_types_task.h \
+    $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
+    $(wildcard include/config/SPLIT_PTLOCK_CPUS) \
+    $(wildcard include/config/ARCH_ENABLE_SPLIT_PMD_PTLOCK) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/tlbbatch.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/task_io_accounting.h \
+    $(wildcard include/config/TASK_IO_ACCOUNTING) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/posix-timers.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/alarmtimer.h \
+    $(wildcard include/config/RTC_CLASS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/rseq.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kcsan.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rv.h \
+    $(wildcard include/config/RV_REACTORS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/livepatch_sched.h \
+  arch/arm64/include/generated/asm/kmap_size.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/kmap_size.h \
+    $(wildcard include/config/DEBUG_KMAP_LOCAL) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/task_stack.h \
+    $(wildcard include/config/STACK_GROWSUP) \
+    $(wildcard include/config/DEBUG_STACK_USAGE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/magic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/stat.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/buildid.h \
+    $(wildcard include/config/CRASH_CORE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mm_types.h \
+    $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
+    $(wildcard include/config/USERFAULTFD) \
+    $(wildcard include/config/PER_VMA_LOCK) \
+    $(wildcard include/config/ANON_VMA_NAME) \
+    $(wildcard include/config/SWAP) \
+    $(wildcard include/config/HAVE_ARCH_COMPAT_MMAP_BASES) \
+    $(wildcard include/config/MEMBARRIER) \
+    $(wildcard include/config/AIO) \
+    $(wildcard include/config/MMU_NOTIFIER) \
+    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
+    $(wildcard include/config/HUGETLB_PAGE) \
+    $(wildcard include/config/KSM) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/auxvec.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/auxvec.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/auxvec.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kref.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/maple_tree.h \
+    $(wildcard include/config/MAPLE_RCU_DISABLED) \
+    $(wildcard include/config/DEBUG_MAPLE_TREE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rwsem.h \
+    $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
+    $(wildcard include/config/DEBUG_RWSEMS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/completion.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/swait.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/uprobes.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/page-flags-layout.h \
+  include/generated/bounds.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/sparsemem.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/percpu_counter.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/mmu.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kmod.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/umh.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/gfp.h \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
     $(wildcard include/config/ZONE_DEVICE) \
-    $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/mmzone.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
     $(wildcard include/config/MEMORY_ISOLATION) \
@@ -544,251 +741,203 @@ deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o := \
     $(wildcard include/config/DEFERRED_STRUCT_PAGE_INIT) \
     $(wildcard include/config/HAVE_MEMORYLESS_NODES) \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/list_nulls.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/nodemask.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/random.h \
-    $(wildcard include/config/VMGENID) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/random.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/ioctl.h \
-  arch/arm/include/generated/uapi/asm/ioctl.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/ioctl.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/ioctl.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/irqnr.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/irqnr.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/prandom.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/once.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/jump_label.h \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/jump_label.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/pageblock-flags.h \
+    $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/list_nulls.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE_SIZE_VARIABLE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/page-flags.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/page-flags.h \
     $(wildcard include/config/ARCH_USES_PG_UNCACHED) \
     $(wildcard include/config/PAGE_IDLE_FLAG) \
     $(wildcard include/config/ARCH_USES_PG_ARCH_X) \
     $(wildcard include/config/HUGETLB_PAGE_OPTIMIZE_VMEMMAP) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/local_lock.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/local_lock_internal.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/memory_hotplug.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/local_lock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/local_lock_internal.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/memory_hotplug.h \
     $(wildcard include/config/HAVE_ARCH_NODEDATA_EXTENSION) \
     $(wildcard include/config/ARCH_HAS_ADD_PAGES) \
     $(wildcard include/config/MEMORY_HOTREMOVE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/notifier.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/srcu.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/notifier.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/srcu.h \
     $(wildcard include/config/TINY_SRCU) \
     $(wildcard include/config/NEED_SRCU_NMI_SAFE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rcu_segcblist.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/srcutree.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rcu_node_tree.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rcu_segcblist.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/srcutree.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rcu_node_tree.h \
     $(wildcard include/config/RCU_FANOUT) \
     $(wildcard include/config/RCU_FANOUT_LEAF) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/topology.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/topology.h \
     $(wildcard include/config/USE_PERCPU_NUMA_NODE_ID) \
     $(wildcard include/config/SCHED_SMT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/arch_topology.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/arch_topology.h \
     $(wildcard include/config/ACPI_CPPC_LIB) \
     $(wildcard include/config/GENERIC_ARCH_TOPOLOGY) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/topology.h \
-    $(wildcard include/config/ARM_CPU_TOPOLOGY) \
-    $(wildcard include/config/BL_SWITCHER) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/topology.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sysctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/topology.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/topology.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sysctl.h \
     $(wildcard include/config/SYSCTL) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/sysctl.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/elf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/sysctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/elf.h \
     $(wildcard include/config/ARCH_USE_GNU_PROPERTY) \
     $(wildcard include/config/ARCH_HAVE_ELF_PROT) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/elf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/vdso_datapage.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/datapage.h \
-    $(wildcard include/config/ARCH_HAS_VDSO_DATA) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/clocksource.h \
-    $(wildcard include/config/GENERIC_GETTIMEOFDAY) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/vdso/clocksource.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/vdso/processor.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/vdso/gettimeofday.h \
-    $(wildcard include/config/ARM_ARCH_TIMER) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/unistd.h \
-    $(wildcard include/config/OABI_COMPAT) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/unistd.h \
-  arch/arm/include/generated/uapi/asm/unistd-eabi.h \
-  arch/arm/include/generated/asm/unistd-nr.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/vdso/cp15.h \
-    $(wildcard include/config/CPU_CP15) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/user.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/elf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/elf-em.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sysfs.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/idr.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/radix-tree.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/xarray.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/elf.h \
+    $(wildcard include/config/COMPAT_VDSO) \
+  arch/arm64/include/generated/asm/user.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/user.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/elf.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/elf-em.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/fs.h \
+    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
+    $(wildcard include/config/FS_POSIX_ACL) \
+    $(wildcard include/config/CGROUP_WRITEBACK) \
+    $(wildcard include/config/IMA) \
+    $(wildcard include/config/FILE_LOCKING) \
+    $(wildcard include/config/FSNOTIFY) \
+    $(wildcard include/config/FS_ENCRYPTION) \
+    $(wildcard include/config/FS_VERITY) \
+    $(wildcard include/config/EPOLL) \
+    $(wildcard include/config/UNICODE) \
+    $(wildcard include/config/QUOTA) \
+    $(wildcard include/config/FS_DAX) \
+    $(wildcard include/config/BLOCK) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/wait_bit.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kdev_t.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/kdev_t.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/dcache.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rculist_bl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/list_bl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/bit_spinlock.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/lockref.h \
+    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/stringhash.h \
+    $(wildcard include/config/DCACHE_WORD_ACCESS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/hash.h \
+    $(wildcard include/config/HAVE_ARCH_HASH) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/path.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/list_lru.h \
+    $(wildcard include/config/MEMCG_KMEM) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/shrinker.h \
+    $(wildcard include/config/SHRINKER_DEBUG) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/xarray.h \
     $(wildcard include/config/XARRAY_MULTI) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sched/mm.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/mm.h \
     $(wildcard include/config/MMU_LAZY_TLB_REFCOUNT) \
     $(wildcard include/config/ARCH_HAS_MEMBARRIER_CALLBACKS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sched.h \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
-    $(wildcard include/config/SCHED_INFO) \
-    $(wildcard include/config/SCHEDSTATS) \
-    $(wildcard include/config/SCHED_CORE) \
-    $(wildcard include/config/FAIR_GROUP_SCHED) \
-    $(wildcard include/config/RT_GROUP_SCHED) \
-    $(wildcard include/config/RT_MUTEXES) \
-    $(wildcard include/config/UCLAMP_TASK) \
-    $(wildcard include/config/UCLAMP_BUCKETS_COUNT) \
-    $(wildcard include/config/KMAP_LOCAL) \
-    $(wildcard include/config/CGROUP_SCHED) \
-    $(wildcard include/config/BLK_DEV_IO_TRACE) \
-    $(wildcard include/config/COMPAT_BRK) \
-    $(wildcard include/config/CGROUPS) \
-    $(wildcard include/config/BLK_CGROUP) \
-    $(wildcard include/config/PSI) \
-    $(wildcard include/config/PAGE_OWNER) \
-    $(wildcard include/config/EVENTFD) \
-    $(wildcard include/config/CPU_SUP_INTEL) \
-    $(wildcard include/config/TASK_DELAY_ACCT) \
-    $(wildcard include/config/STACKPROTECTOR) \
-    $(wildcard include/config/ARCH_HAS_SCALED_CPUTIME) \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING_GEN) \
-    $(wildcard include/config/POSIX_CPUTIMERS) \
-    $(wildcard include/config/POSIX_CPU_TIMERS_TASK_WORK) \
-    $(wildcard include/config/KEYS) \
-    $(wildcard include/config/SYSVIPC) \
-    $(wildcard include/config/DETECT_HUNG_TASK) \
-    $(wildcard include/config/IO_URING) \
-    $(wildcard include/config/AUDIT) \
-    $(wildcard include/config/AUDITSYSCALL) \
-    $(wildcard include/config/UBSAN) \
-    $(wildcard include/config/UBSAN_TRAP) \
-    $(wildcard include/config/TASK_XACCT) \
-    $(wildcard include/config/CPUSETS) \
-    $(wildcard include/config/X86_CPU_RESCTRL) \
-    $(wildcard include/config/FUTEX) \
-    $(wildcard include/config/COMPAT) \
-    $(wildcard include/config/PERF_EVENTS) \
-    $(wildcard include/config/RSEQ) \
-    $(wildcard include/config/FAULT_INJECTION) \
-    $(wildcard include/config/LATENCYTOP) \
-    $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
-    $(wildcard include/config/BCACHE) \
-    $(wildcard include/config/SECURITY) \
-    $(wildcard include/config/BPF_SYSCALL) \
-    $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
-    $(wildcard include/config/X86_MCE) \
-    $(wildcard include/config/KRETPROBES) \
-    $(wildcard include/config/RETHOOK) \
-    $(wildcard include/config/ARCH_HAS_PARANOID_L1D_FLUSH) \
-    $(wildcard include/config/RV) \
-    $(wildcard include/config/USER_EVENTS) \
-    $(wildcard include/config/ARCH_TASK_STRUCT_ON_STACK) \
-    $(wildcard include/config/PREEMPT_NONE) \
-    $(wildcard include/config/PREEMPT_VOLUNTARY) \
-    $(wildcard include/config/DEBUG_RSEQ) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/sched.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/pid.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rculist.h \
-    $(wildcard include/config/PROVE_RCU_LIST) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sem.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/sem.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/ipc.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rhashtable-types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/ipc.h \
-  arch/arm/include/generated/uapi/asm/ipcbuf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/ipcbuf.h \
-  arch/arm/include/generated/uapi/asm/sembuf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/sembuf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/shm.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/shm.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/hugetlb_encode.h \
-  arch/arm/include/generated/uapi/asm/shmbuf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/shmbuf.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/shmparam.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kmsan_types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/plist.h \
-    $(wildcard include/config/DEBUG_PLIST) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/hrtimer.h \
-    $(wildcard include/config/HIGH_RES_TIMERS) \
-    $(wildcard include/config/TIME_LOW_RES) \
-    $(wildcard include/config/TIMERFD) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/hrtimer_defs.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/timerqueue.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/seccomp.h \
-    $(wildcard include/config/SECCOMP) \
-    $(wildcard include/config/HAVE_ARCH_SECCOMP_FILTER) \
-    $(wildcard include/config/SECCOMP_FILTER) \
-    $(wildcard include/config/CHECKPOINT_RESTORE) \
-    $(wildcard include/config/SECCOMP_CACHE_DEBUG) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/seccomp.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/seccomp.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/seccomp.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/unistd.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/resource.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/resource.h \
-  arch/arm/include/generated/uapi/asm/resource.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/resource.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/resource.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/latencytop.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sched/prio.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sched/types.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/signal_types.h \
-    $(wildcard include/config/OLD_SIGACTION) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/signal.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/signal.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/signal.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/signal-defs.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/uapi/asm/sigcontext.h \
-  arch/arm/include/generated/uapi/asm/siginfo.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/asm-generic/siginfo.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/syscall_user_dispatch.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/task_io_accounting.h \
-    $(wildcard include/config/TASK_IO_ACCOUNTING) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/posix-timers.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/alarmtimer.h \
-    $(wildcard include/config/RTC_CLASS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/uapi/linux/rseq.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kcsan.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rv.h \
-    $(wildcard include/config/RV_REACTORS) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/livepatch_sched.h \
-  arch/arm/include/generated/asm/kmap_size.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/kmap_size.h \
-    $(wildcard include/config/DEBUG_KMAP_LOCAL) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/sync_core.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sync_core.h \
     $(wildcard include/config/ARCH_HAS_SYNC_CORE_BEFORE_USERMODE) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/kobject_ns.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/moduleparam.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/radix-tree.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/capability.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/capability.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/semaphore.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/fcntl.h \
+    $(wildcard include/config/ARCH_32BIT_OFF_T) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/fcntl.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/uapi/asm/fcntl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/asm-generic/fcntl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/openat2.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/migrate_mode.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/percpu-rwsem.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rcuwait.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/signal.h \
+    $(wildcard include/config/SCHED_AUTOGROUP) \
+    $(wildcard include/config/BSD_PROCESS_ACCT) \
+    $(wildcard include/config/TASKSTATS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/signal.h \
+    $(wildcard include/config/DYNAMIC_SIGFRAME) \
+    $(wildcard include/config/PROC_FS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/jobctl.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/task.h \
+    $(wildcard include/config/HAVE_EXIT_THREAD) \
+    $(wildcard include/config/ARCH_WANTS_DYNAMIC_TASK_STRUCT) \
+    $(wildcard include/config/HAVE_ARCH_THREAD_STRUCT_WHITELIST) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/uaccess.h \
+    $(wildcard include/config/ARCH_HAS_SUBPAGE_FAULTS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/fault-inject-usercopy.h \
+    $(wildcard include/config/FAULT_INJECTION_USERCOPY) \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/uaccess.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/kernel-pgtable.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/asm-extable.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/mte.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/extable.h \
+    $(wildcard include/config/BPF_JIT) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/access_ok.h \
+    $(wildcard include/config/ALTERNATE_USER_ADDRESS_SPACE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/cred.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/key.h \
+    $(wildcard include/config/KEY_NOTIFICATIONS) \
+    $(wildcard include/config/NET) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/assoc_array.h \
+    $(wildcard include/config/ASSOCIATIVE_ARRAY) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/user.h \
+    $(wildcard include/config/VFIO_PCI_ZDEV_KVM) \
+    $(wildcard include/config/IOMMUFD) \
+    $(wildcard include/config/WATCH_QUEUE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/ratelimit.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rcu_sync.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/delayed_call.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/uuid.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/errseq.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/ioprio.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sched/rt.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/iocontext.h \
+    $(wildcard include/config/BLK_ICQ) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/ioprio.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/fs_types.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mount.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/mnt_idmapping.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/slab.h \
+    $(wildcard include/config/DEBUG_SLAB) \
+    $(wildcard include/config/SLUB_TINY) \
+    $(wildcard include/config/FAILSLAB) \
+    $(wildcard include/config/KFENCE) \
+    $(wildcard include/config/SLAB) \
+    $(wildcard include/config/SLUB) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/percpu-refcount.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kasan.h \
+    $(wildcard include/config/KASAN_STACK) \
+    $(wildcard include/config/KASAN_VMALLOC) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/fs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/quota.h \
+    $(wildcard include/config/QUOTA_NETLINK_INTERFACE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/dqblk_xfs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/dqblk_v1.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/dqblk_v2.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/dqblk_qtree.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/projid.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/uapi/linux/quota.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/sysfs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/idr.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/kobject_ns.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/moduleparam.h \
     $(wildcard include/config/ALPHA) \
     $(wildcard include/config/IA64) \
     $(wildcard include/config/PPC64) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/rbtree_latch.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/error-injection.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/error-injection.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/tracepoint-defs.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/static_key.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/dynamic_debug.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/module.h \
-    $(wildcard include/config/ARM_UNWIND) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/asm-generic/module.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/rbtree_latch.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/error-injection.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/error-injection.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/tracepoint-defs.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/dynamic_debug.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/module.h \
+    $(wildcard include/config/DYNAMIC_FTRACE) \
+    $(wildcard include/config/ARM64_ERRATUM_843419) \
+  /home/aoddudwo/build_kernel/linux/linux/include/asm-generic/module.h \
     $(wildcard include/config/HAVE_MOD_ARCH_SPECIFIC) \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/unwind.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/build-salt.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/build-salt.h \
     $(wildcard include/config/BUILD_SALT) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/elfnote.h \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/elfnote-lto.h \
-    $(wildcard include/config/LTO) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/export-internal.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/elfnote.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/elfnote-lto.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/export-internal.h \
     $(wildcard include/config/PARISC) \
-  /home/aoddudwo/rpi_kernel_build/linux/include/linux/vermagic.h \
+  /home/aoddudwo/build_kernel/linux/linux/include/linux/vermagic.h \
     $(wildcard include/config/PREEMPT_BUILD) \
   include/generated/utsrelease.h \
-  /home/aoddudwo/rpi_kernel_build/linux/arch/arm/include/asm/vermagic.h \
+  /home/aoddudwo/build_kernel/linux/linux/arch/arm64/include/asm/vermagic.h \
 
 /home/aoddudwo/driver_study/day1/day1_module.mod.o: $(deps_/home/aoddudwo/driver_study/day1/day1_module.mod.o)
 

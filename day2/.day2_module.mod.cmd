@@ -1,1 +1,0 @@
-savedcmd_/home/aoddudwo/driver_study/day2/day2_module.mod := printf '%s\n'   day2_module.o | awk '!x[$$0]++ { print("/home/aoddudwo/driver_study/day2/"$$0) }' > /home/aoddudwo/driver_study/day2/day2_module.mod

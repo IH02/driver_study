@@ -4,8 +4,8 @@
 
 /* Meta Information */
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("IH02 GNU/Linux");
-MODULE_DESCRIPTION("Registers a device nr. and implement some callback functions");
+MODULE_AUTHOR("IH02");
+MODULE_DESCRIPTION("user_to_driver");
 
 /*
  * @brief This fuction is called, whe the device file is opened
@@ -30,20 +30,17 @@ static struct file_operations fops = {
 };
 
 
-#define DD_MAJOR 90
+#define MAJOR_NUM 100
 
-/*
- @ brief This function is called, when the module is loaded into the kernel
- */
+
 static int __init driver_init(void) {
 	int retval;
 
-	printk("Hello, Driver!\n");
-	/* register device nr */
-	retval = register_chrdev(DD_MAJOR, "IH_driver1", &fops);
-
+	printk("Driver init!\n");
+	
+	retval = register_chrdev(MAJOR_NUM, "IH_driver2", &fops)
 	if(retval == 0) {
-		printk("Registered Device number Major :%d, Minor : %d\n", DD_MAJOR,0);
+		printk("Device Major Number :%d, Minor : %d\n", MAJOR_NUM,0);
 	}
 	else if(retval > 0) {
 		printk("Registered Device number Major :%d, Minor : %d\n", retval>>20,retval&0xfffff);
@@ -57,12 +54,12 @@ static int __init driver_init(void) {
 }
 
 
-/**
- * @brief This function is called, when the module is removed from the kernel
- */
+
+
+
 static void __exit driver_exit(void) {
-	unregister_chrdev(DD_MAJOR, "IH_driver1");
-	printk("Bye Driver Day2\n");
+	unregister_chrdev(MAJOR_NUM, "IH_driver2");
+	printk("Driver exit!\n");
 }
 
 module_init(driver_init);  
