@@ -1,0 +1,1 @@
+savedcmd_/home/aoddudwo/driver_study/day3/led_module.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/aoddudwo/driver_study/day3/led_module.ko /home/aoddudwo/driver_study/day3/led_module.o /home/aoddudwo/driver_study/day3/led_module.mod.o;  true

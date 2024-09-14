@@ -1,1 +1,0 @@
-savedcmd_/home/aoddudwo/driver_study/day3/read_write.mod := printf '%s\n'   read_write.o | awk '!x[$$0]++ { print("/home/aoddudwo/driver_study/day3/"$$0) }' > /home/aoddudwo/driver_study/day3/read_write.mod

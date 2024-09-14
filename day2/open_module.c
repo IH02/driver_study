@@ -5,7 +5,7 @@
 
 int main() {
 
-        int dev = open("/dev/day2_module", O_RDONLY);
+        int dev = open("/dev/day2", O_RDONLY);
 
         if(dev == -1) {
                 printf("Opening was not possible!\n");
