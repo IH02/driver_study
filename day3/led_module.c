@@ -8,6 +8,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("IH02");
 MODULE_DESCRIPTION("LED_driver");
 
+static int already_read;
 static int driver_open(struct inode *device_file, struct file *instance){ 
 	printk("open was called!\n");
 	return 0;
@@ -19,33 +20,34 @@ static int driver_close(struct inode *device_file, struct file *instance){
 }
 
 static ssize_t driver_read(struct file *File, char *user_buffer, size_t count, loff_t *offs) {
-	int to_copy, not_copied, delta;
-	char tmp[3] = " \n";
+  unsigned int led_data;
+    int not_copied;
 
-	to_copy = min(count, sizeof(tmp));
+    if (*offs > 0) {
+        // 이미 읽힌 데이터에 대해서는 EOF를 반환
+        return 0;
+    }
 
-	printk("Value of LED: %d\n", gpio_get_value(536));	
-	tmp[0] = gpio_get_value(536) + '0';
+    led_data = gpio_get_value(536);
 
+    not_copied = put_user(led_data, user_buffer);
 
-	/* Copy data to User Area */
-	not_copied = copy_to_user(user_buffer, &tmp, to_copy);
+    if (not_copied) {
+        return -EFAULT;  // 오류 발생 시 오류 코드 반환
+    }
 
-	/* Calculate data */
-	delta = to_copy - not_copied;
-	printk("GPIO_driver Read \n");
+    *offs += sizeof(led_data);  // 오프셋 업데이트
 
-	return delta;
+    printk("GPIO_driver Read: Value of LED: %d\n", led_data);
 
+    return sizeof(led_data);
 }
 static ssize_t driver_write(struct file *File, const char *user_buffer, size_t count, loff_t *offs) {
 	int to_copy, not_copied, delta;
 	char value;
 
-	/* Get amount of data to copy */
 	to_copy = min(count, sizeof(value));
 
-	/* Copy data from User Area */
 	not_copied = copy_from_user(&value, user_buffer, to_copy);
 
 	printk("Write - value : %d\n",value);
@@ -135,6 +137,9 @@ static int __init driver_init(void) {
 static void __exit driver_exit(void) {
 	unregister_chrdev(MAJOR_NUM, "IH_driver2");
 	printk("Driver exit!\n");
+	gpio_set_value(535, 0);
+	gpio_free(535);
+	gpio_free(536);
 }
 
 module_init(driver_init);  
